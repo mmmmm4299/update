@@ -1,8 +1,8 @@
-cls
 if %prog% == test goto PTest
 
 
 :Ptest
-curl -LO "%github_url%"
+rem curl -LO "%github_url%"
+cls
 echo vše je ok
 pause
